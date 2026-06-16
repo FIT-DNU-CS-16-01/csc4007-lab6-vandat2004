@@ -12,6 +12,8 @@ The script supports three prompt versions:
 
 import csv
 import json
+import os
+import requests
 from pathlib import Path
 
 DATA_PATH = Path("data/imdb_sample_50.csv")
@@ -24,23 +26,34 @@ PROMPT_PATHS = {
 
 OUTPUT_DIR = Path("outputs")
 
-
 def call_llm(prompt: str) -> str:
     """
-    TODO:
-    Replace this function with your LLM call.
-
-    Options:
-    - Gemini API
-    - Groq API
-    - OpenRouter
-    - Ollama local API
-    - Manual web UI copy/paste, then skip this script
-
-    Return:
-        Raw text output from the LLM.
+    Gọi trực tiếp đến Gemini API sử dụng thư viện requests.
     """
-    raise NotImplementedError("Students should implement the LLM call.")
+    # Lấy API Key từ biến môi trường hệ thống
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        raise ValueError("LỖI: Bạn chưa cài đặt GEMINI_API_KEY. Hãy xem hướng dẫn ở Bước 3.")
+        
+    url = f"https://googleapis.com{api_key}"
+    headers = {"Content-Type": "application/json"}
+    payload = {
+        "contents": [{
+            "parts": [{"text": prompt}]
+        }]
+    }
+    
+    try:
+        response = requests.post(url, headers=headers, json=payload)
+        response.raise_for_status()
+        result = response.json()
+        # Trích xuất văn bản phản hồi từ cấu trúc JSON của Gemini
+        raw_text = result['candidates'][0]['content']['parts'][0]['text']
+        return raw_text
+    except Exception as e:
+        print(f"Lỗi khi gọi API: {e}")
+        return "{}" # Trả về chuỗi JSON rỗng nếu lỗi để tránh crash toàn bộ mạch
+
 
 
 def parse_json_safely(raw_text: str):
@@ -80,11 +93,9 @@ def run_one_prompt(prompt_version: str, prompt_path: Path, rows: list[dict]):
     for row in rows:
         prompt = prompt_template.replace("{review_text}", row["review_text"])
 
-        # TODO: call your LLM here.
-        # llm_output = call_llm(prompt)
-
-        # Temporary placeholder for students who use manual web UI.
-        llm_output = "TODO: paste or generate LLM output here"
+        # Gọi hàm AI thật để quét qua từng câu review phim
+        print(f" đang gửi câu {row['review_id']} lên Gemini API...")
+        llm_output = call_llm(prompt)
 
         parsed_output, valid_json = parse_json_safely(llm_output)
         pred_sentiment = extract_pred_sentiment(parsed_output)
