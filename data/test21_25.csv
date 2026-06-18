@@ -1,0 +1,6 @@
+review_id,review_text,gold_sentiment,expected_aspects,difficulty,source_note
+R021,"A delightful surprise with strong performances, memorable scenes, and a very satisfying conclusion.",positive,"acting,ending",easy,synthetic_imdb_style_sample_for_lab_scaffold
+R022,The film uses a small story to explore big emotions without becoming heavy-handed.,positive,"story,emotion",easy,synthetic_imdb_style_sample_for_lab_scaffold
+R023,"The dialogue feels natural, the pace is steady, and the final message is quietly powerful.",positive,"dialogue,pacing,ending",easy,synthetic_imdb_style_sample_for_lab_scaffold
+R024,A charming movie that makes up for its simple plot with sincere characters and lovely music.,positive,"story,characters,music",mixed_surface_positive_label,synthetic_imdb_style_sample_for_lab_scaffold
+R025,"I expected very little, but the movie surprised me with its humor, warmth, and thoughtful ending.",positive,"humor,tone,ending",easy,synthetic_imdb_style_sample_for_lab_scaffold

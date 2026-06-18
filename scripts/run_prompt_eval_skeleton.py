@@ -9,14 +9,21 @@ The script supports three prompt versions:
 - v2: improved prompt
 - v3_cot: CoT-inspired prompt
 """
-
+import time
 import csv
 import json
 import os
 import requests
 from pathlib import Path
+from google import genai
 
-DATA_PATH = Path("data/imdb_sample_50.csv")
+client = genai.Client(
+    api_key=os.getenv("GEMINI_API_KEY")
+)
+
+time.sleep(12)
+
+DATA_PATH = Path("data/test26_30.csv")
 
 PROMPT_PATHS = {
     "v1": Path("prompts/prompt_template_v1.txt"),
@@ -26,44 +33,52 @@ PROMPT_PATHS = {
 
 OUTPUT_DIR = Path("outputs")
 
+
 def call_llm(prompt: str) -> str:
-    """
-    Gọi trực tiếp đến Gemini API sử dụng thư viện requests.
-    """
-    # Lấy API Key từ biến môi trường hệ thống
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        raise ValueError("LỖI: Bạn chưa cài đặt GEMINI_API_KEY. Hãy xem hướng dẫn ở Bước 3.")
-        
-    url = f"https://googleapis.com{api_key}"
-    headers = {"Content-Type": "application/json"}
-    payload = {
-        "contents": [{
-            "parts": [{"text": prompt}]
-        }]
-    }
-    
-    try:
-        response = requests.post(url, headers=headers, json=payload)
-        response.raise_for_status()
-        result = response.json()
-        # Trích xuất văn bản phản hồi từ cấu trúc JSON của Gemini
-        raw_text = result['candidates'][0]['content']['parts'][0]['text']
-        return raw_text
-    except Exception as e:
-        print(f"Lỗi khi gọi API: {e}")
-        return "{}" # Trả về chuỗi JSON rỗng nếu lỗi để tránh crash toàn bộ mạch
+
+    MAX_RETRY = 10
+
+    for attempt in range(MAX_RETRY):
+
+        try:
+            response = client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=prompt
+            )
+
+            time.sleep(12)
+
+            return response.text
+
+        except Exception as e:
+
+            print(f"Lần thử {attempt+1}/{MAX_RETRY} bị lỗi:")
+            print(e)
+
+            if attempt < MAX_RETRY - 1:
+                print("Đợi 20 giây rồi thử lại...")
+                time.sleep(20)
+            else:
+                print("Đã hết số lần thử.")
+
+    return "{}"
 
 
 
 def parse_json_safely(raw_text: str):
-    """
-    Try to parse LLM output as JSON.
+    raw_text = raw_text.strip()
 
-    Returns:
-        parsed_object: dict
-        valid_json: 1 if parsing succeeds, else 0
-    """
+    if raw_text.startswith("```json"):
+        raw_text = raw_text.replace("```json", "", 1)
+
+    if raw_text.startswith("```"):
+        raw_text = raw_text.replace("```", "", 1)
+
+    if raw_text.endswith("```"):
+        raw_text = raw_text[:-3]
+
+    raw_text = raw_text.strip()
+
     try:
         return json.loads(raw_text), 1
     except json.JSONDecodeError:
@@ -110,7 +125,7 @@ def run_one_prompt(prompt_version: str, prompt_path: Path, rows: list[dict]):
             "pred_sentiment": pred_sentiment,
         })
 
-    with output_path.open("w", newline="", encoding="utf-8") as f:
+    with output_path.open("a", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f,
             fieldnames=[

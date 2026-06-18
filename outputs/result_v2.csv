@@ -1,0 +1,614 @@
+review_id,review_text,gold_sentiment,prompt_version,llm_output,valid_json,pred_sentiment
+R001,A beautifully acted film with a simple story that becomes surprisingly emotional by the end.,positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""beautifully acted""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""simple story that becomes surprisingly emotional by the end""
+    }
+  ],
+  ""short_explanation"": ""The review praises the film's beautiful acting and its simple story which delivers a surprisingly emotional experience by its conclusion."",
+  ""confidence"": ""high""
+}",1,positive
+R002,"The pacing is slow at first, but the performances and final scene make the movie memorable.",positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""pacing"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""The pacing is slow at first""
+    },
+    {
+      ""aspect"": ""acting"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""the performances""
+    },
+    {
+      ""aspect"": ""ending"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""final scene make the movie memorable""
+    }
+  ],
+  ""short_explanation"": ""Despite an initial slow pacing, the movie is ultimately memorable due to strong performances and a impactful final scene."",
+  ""confidence"": ""high""
+}",1,positive
+R003,I loved the chemistry between the leads and the soundtrack fits every scene perfectly.,positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""I loved the chemistry between the leads""
+    },
+    {
+      ""aspect"": ""music"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""the soundtrack fits every scene perfectly""
+    }
+  ],
+  ""short_explanation"": ""The reviewer highly praises the chemistry between the lead actors and the perfectly fitting soundtrack."",
+  ""confidence"": ""high""
+}",1,positive
+R004,"The plot is predictable, yet the warm characters and sharp dialogue kept me engaged.",positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""The plot is predictable""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""warm characters""
+    },
+    {
+      ""aspect"": ""dialogue"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""sharp dialogue""
+    }
+  ],
+  ""short_explanation"": ""Despite a predictable plot, the reviewer found the warm characters and sharp dialogue engaging, resulting in an overall positive sentiment."",
+  ""confidence"": ""high""
+}",1,positive
+R005,"A clever script, strong direction, and an ending that feels earned rather than forced.",positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""A clever script""
+    },
+    {
+      ""aspect"": ""direction"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""strong direction""
+    },
+    {
+      ""aspect"": ""ending"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""an ending that feels earned rather than forced""
+    }
+  ],
+  ""short_explanation"": ""The reviewer praises the film for its intelligent script, effective direction, and a satisfying, well-resolved ending."",
+  ""confidence"": ""high""
+}",1,positive
+R006,"The visuals are stunning and the world feels alive, even when the story takes familiar turns.",positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""visuals"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""The visuals are stunning""
+    },
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""the world feels alive""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""the story takes familiar turns""
+    }
+  ],
+  ""short_explanation"": ""The reviewer praises the stunning visuals and the immersive world, despite noting that the story can be predictable."",
+  ""confidence"": ""high""
+}",1,positive
+R007,"This movie balances humor and drama very well, with several scenes that stayed with me.",positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""balances humor and drama very well""
+    },
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""several scenes that stayed with me""
+    }
+  ],
+  ""short_explanation"": ""The reviewer praises the movie's effective balance of humor and drama and notes that several scenes were memorable."",
+  ""confidence"": ""high""
+}",1,positive
+R008,"The film is not perfect, but it has heart, energy, and a cast that clearly understands the material.",positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""it has heart""
+    },
+    {
+      ""aspect"": ""pacing"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""energy""
+    },
+    {
+      ""aspect"": ""acting"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""a cast that clearly understands the material""
+    }
+  ],
+  ""short_explanation"": ""Despite acknowledging the film is not perfect, the reviewer highlights its positive attributes, specifically its emotional depth, energy, and a cast that demonstrates a strong understanding of the material."",
+  ""confidence"": ""high""
+}",1,positive
+R009,A touching and thoughtful movie that rewards patience with a powerful emotional payoff.,positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""A touching and thoughtful movie""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""rewards patience with a powerful emotional payoff""
+    }
+  ],
+  ""short_explanation"": ""The movie is praised for its thoughtful and touching narrative, leading to a strong emotional resolution for those who are patient."",
+  ""confidence"": ""high""
+}",1,positive
+R010,The director turns a familiar premise into something fresh through careful details and strong atmosphere.,positive,v2,"```json
+{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""direction"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""The director turns a familiar premise into something fresh""
+    },
+    {
+      ""aspect"": ""direction"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""careful details""
+    },
+    {
+      ""aspect"": ""direction"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""strong atmosphere""
+    }
+  ],
+  ""short_explanation"": ""The review praises the director for transforming a familiar story into something new and engaging through meticulous details and an effective atmosphere."",
+  ""confidence"": ""high""
+}
+```",1,positive
+R011,"The action scenes are exciting, the editing is clean, and the characters are more interesting than expected.",positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""The action scenes are exciting""
+    ,
+    {
+      ""aspect"": ""visuals"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""the editing is clean""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""the characters are more interesting than expected""
+    }
+  ],
+  ""short_explanation"": ""The review highlights positive aspects such as exciting action, clean editing, and surprisingly interesting characters."",
+  ""confidence"": ""high""
+}",0,
+R012,"A quiet film, but the silence and small gestures say more than most loud dramas.",positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""A quiet film, but the silence and small gestures say more than most loud dramas.""
+    }
+  ],
+  ""short_explanation"": ""The review praises the film's subtle and quiet approach, finding its understated elements more impactful and expressive than those of typical loud dramas."",
+  ""confidence"": ""high""
+}",1,positive
+R013,"The movie has a few weak jokes, but the emotional core works extremely well.",positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""dialogue"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""weak jokes""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""emotional core works extremely well""
+    }
+  ],
+  ""short_explanation"": ""The movie is viewed positively due to its strong emotional core, which outweighs the minor issue of a few weak jokes."",
+  ""confidence"": ""high""
+}",1,positive
+R014,The lead actor carries the film with a natural performance that makes even ordinary scenes compelling.,positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""The lead actor carries the film with a natural performance that makes even ordinary scenes compelling.""
+    }
+  ],
+  ""short_explanation"": ""The review highly praises the lead actor's natural performance, stating it made even ordinary scenes compelling and carried the film."",
+  ""confidence"": ""high""
+}",1,positive
+R015,A smart and entertaining film with enough surprises to keep the audience invested.,positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""smart""
+    },
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""entertaining film""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""enough surprises to keep the audience invested""
+    }
+  ],
+  ""short_explanation"": ""The review praises the film for being intelligent, entertaining, and having an engaging plot with surprises that hold the audience's interest."",
+  ""confidence"": ""high""
+}",1,positive
+R016,The cinematography is gorgeous and the music gives the story a strong sense of place.,positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""visuals"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""The cinematography is gorgeous""
+    },
+    {
+      ""aspect"": ""music"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""the music gives the story a strong sense of place""
+    }
+  ],
+  ""short_explanation"": ""The review praises the movie's cinematography for being gorgeous and the music for effectively creating a strong sense of place."",
+  ""confidence"": ""high""
+}",1,positive
+R017,"Although the middle section drags, the film recovers with a satisfying final act.",positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""pacing"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""the middle section drags""
+    },
+    {
+      ""aspect"": ""ending"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""a satisfying final act""
+    }
+  ],
+  ""short_explanation"": ""The review indicates a negative point regarding the film's pacing in the middle, but ultimately concludes with a positive sentiment due to a strong recovery and satisfying ending."",
+  ""confidence"": ""high""
+}",1,positive
+R018,"The writing is witty, the cast is charming, and the movie never forgets its emotional stakes.",positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""The writing is witty""
+    },
+    {
+      ""aspect"": ""acting"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""the cast is charming""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""the movie never forgets its emotional stakes.""
+    }
+  ],
+  ""short_explanation"": ""The review is entirely positive, highlighting the witty writing, charming cast, and the film's consistent emotional depth."",
+  ""confidence"": ""high""
+}",1,positive
+R019,A well-crafted drama that avoids cheap sentiment and lets the characters develop naturally.,positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""A well-crafted drama""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""avoids cheap sentiment""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""lets the characters develop naturally""
+    }
+  ],
+  ""short_explanation"": ""The reviewer praises the film as a well-crafted drama that successfully avoids artificial emotional manipulation and allows for natural character development."",
+  ""confidence"": ""high""
+}",1,positive
+R020,"The movie is familiar, but it is executed with confidence and genuine affection for its genre.",positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""neutral"",
+      ""evidence"": ""The movie is familiar""
+    },
+    {
+      ""aspect"": ""direction"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""it is executed with confidence""
+    },
+    {
+      ""aspect"": ""direction"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""genuine affection for its genre""
+    }
+  ],
+  ""short_explanation"": ""Despite a familiar premise, the film is positively reviewed for its confident execution and clear affection for its genre."",
+  ""confidence"": ""high""
+}",1,positive
+R021,"A delightful surprise with strong performances, memorable scenes, and a very satisfying conclusion.",positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""A delightful surprise""
+    ,
+      ""aspect"": ""acting"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""strong performances""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""memorable scenes""
+    },
+    {
+      ""aspect"": ""ending"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""a very satisfying conclusion""
+    }
+  ],
+  ""short_explanation"": ""The reviewer found the movie to be a delightful surprise, highlighting its strong acting, memorable moments, and a satisfying conclusion."",
+  ""confidence"": ""high""
+}",1,positive
+R022,The film uses a small story to explore big emotions without becoming heavy-handed.,positive,v2,"```json
+{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""uses a small story to explore big emotions""
+    },
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""without becoming heavy-handed""
+    }
+  ],
+  ""short_explanation"": ""The review praises the film's delicate handling of emotional themes through its story, noting its ability to explore significant feelings without being overly forceful."",
+  ""confidence"": ""high""
+}
+```",1,positive
+R023,"The dialogue feels natural, the pace is steady, and the final message is quietly powerful.",positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""dialogue"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""The dialogue feels natural""
+    },
+    {
+      ""aspect"": ""pacing"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""the pace is steady""
+    },
+    {
+      ""aspect"": ""ending"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""the final message is quietly powerful""
+    }
+  ],
+  ""short_explanation"": ""The reviewer praises the natural dialogue, steady pacing, and the powerful final message of the movie."",
+  ""confidence"": ""high""
+}",1,positive
+R024,A charming movie that makes up for its simple plot with sincere characters and lovely music.,positive,v2,"{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""simple plot""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""sincere characters""
+    },
+    {
+      ""aspect"": ""music"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""lovely music""
+    }
+  ],
+  ""short_explanation"": ""The movie is overall positive, described as charming. While the plot is simple, this is compensated for by the sincere characters and lovely music."",
+  ""confidence"": ""high""
+}",1,positive
+R025,"I expected very little, but the movie surprised me with its humor, warmth, and thoughtful ending.",positive,v2,"```json
+{
+  ""sentiment"": ""positive"",
+  ""aspects"": [
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""its humor""
+    },
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""warmth""
+    },
+    {
+      ""aspect"": ""ending"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""thoughtful ending""
+    }
+  ],
+  ""short_explanation"": ""The reviewer had low expectations but was positively surprised by the movie's humor, warmth, and thoughtful ending."",
+  ""confidence"": ""high""
+}
+```",1,positive
+R026,"The film looks expensive, but the story is thin and the characters are hard to care about.",negative,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""visuals"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""The film looks expensive""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""the story is thin""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""the characters are hard to care about""
+    }
+  ],
+  ""short_explanation"": ""The review notes that the film has good visuals, but its thin story and unengaging characters result in an overall negative assessment."",
+  ""confidence"": ""high""
+}",1,negative
+R027,"A dull movie with flat dialogue, weak pacing, and an ending that feels completely unearned.",negative,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""A dull movie""
+     synergistic to all""
+    },
+    {
+      ""aspect"": ""dialogue"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""flat dialogue""
+    },
+    {
+      ""aspect"": ""pacing"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""weak pacing""
+    },
+    {
+      ""aspect"": ""ending"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""an ending that feels completely unearned""
+    }
+  ],
+  ""short_explanation"": ""The reviewer found the movie dull, specifically criticizing its flat dialogue, weak pacing, and an unearned ending."",
+  ""confidence"": ""high""
+}",0,
+R028,"The actors try their best, but the script gives them almost nothing interesting to do.",negative,v2,"```json
+{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""acting"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""The actors try their best""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""the script gives them almost nothing interesting to do""
+    }
+  ],
+  ""short_explanation"": ""While the actors' effort is acknowledged, the review primarily criticizes the script for providing uninteresting material, leading to an overall negative sentiment."",
+  ""confidence"": ""high""
+}
+```",1,negative
+R029,The movie starts with promise and then slowly collapses into predictable twists and noisy scenes.,negative,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""positive"",
+      ""evidence"": ""starts with promise""
+    },
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""slowly collapses into predictable twists""
+    },
+    {
+      ""aspect"": ""other"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""noisy scenes""
+    }
+  ],
+  ""short_explanation"": ""The movie started strong but deteriorated due to predictable plot developments and noisy scenes."",
+  ""confidence"": ""high""
+}",1,negative
+R030,"I wanted to enjoy it, but the plot is confusing, the jokes fall flat, and the runtime feels endless.",negative,v2,"{
+  ""sentiment"": ""negative"",
+  ""aspects"": [
+    {
+      ""aspect"": ""story"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""the plot is confusing""
+    },
+    {
+      ""aspect"": ""dialogue"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""the jokes fall flat""
+    },
+    {
+      ""aspect"": ""pacing"",
+      ""polarity"": ""negative"",
+      ""evidence"": ""the runtime feels endless""
+    }
+  ],
+  ""short_explanation"": ""The reviewer found the plot confusing, the humor ineffective, and the movie's length excessive."",
+  ""confidence"": ""high""
+}",1,negative

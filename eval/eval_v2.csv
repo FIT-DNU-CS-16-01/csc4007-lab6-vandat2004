@@ -1,0 +1,31 @@
+review_id,prompt_version,gold_sentiment,pred_sentiment,is_correct,valid_json,evidence_exact,hallucination,outside_knowledge,confidence,error_bucket,notes
+R001,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R002,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R003,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R004,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R005,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R006,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R007,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R008,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R009,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R010,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R011,v2,positive,,0,0,1,0,0,medium,invalid_json,Output is not valid JSON.
+R012,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R013,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R014,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R015,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R016,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R017,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R018,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R019,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R020,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R021,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R022,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R023,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R024,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R025,v2,positive,positive,1,1,1,0,0,high,none,Prediction is correct.
+R026,v2,negative,negative,1,1,1,0,0,high,none,Prediction is correct.
+R027,v2,negative,,0,0,1,0,0,medium,invalid_json,Output is not valid JSON.
+R028,v2,negative,negative,1,1,1,0,0,high,none,Prediction is correct.
+R029,v2,negative,negative,1,1,1,0,0,high,none,Prediction is correct.
+R030,v2,negative,negative,1,1,1,0,0,high,none,Prediction is correct.

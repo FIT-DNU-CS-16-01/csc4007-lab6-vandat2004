@@ -1,0 +1,326 @@
+review_id,review_text,gold_sentiment,prompt_version,llm_output,valid_json,pred_sentiment
+R001,A beautifully acted film with a simple story that becomes surprisingly emotional by the end.,positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The review praises the film's acting as 'beautifully acted' and describes the emotional impact as 'surprisingly emotional', both strongly positive attributes."",
+  ""evidence_phrases"": [
+    ""beautifully acted"",
+    ""surprisingly emotional""
+  ]
+}
+```",1,positive
+R002,"The pacing is slow at first, but the performances and final scene make the movie memorable.",positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""While the review acknowledges slow pacing initially, it strongly praises the performances and final scene, concluding that these elements make the movie memorable, leading to an overall positive sentiment."",
+  ""evidence_phrases"": [
+    ""pacing is slow at first"",
+    ""performances"",
+    ""final scene"",
+    ""make the movie memorable""
+  ]
+}
+```",1,positive
+R003,I loved the chemistry between the leads and the soundtrack fits every scene perfectly.,positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The reviewer expresses strong admiration for both the chemistry between the leads and the perfectly fitting soundtrack."",
+  ""evidence_phrases"": [
+    ""I loved the chemistry between the leads"",
+    ""the soundtrack fits every scene perfectly""
+  ]
+}
+```",1,positive
+R004,"The plot is predictable, yet the warm characters and sharp dialogue kept me engaged.",positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""Despite a predictable plot, the engaging characters and dialogue created a positive viewing experience for the reviewer, ultimately leading to a favorable overall impression."",
+  ""evidence_phrases"": [
+    ""warm characters"",
+    ""sharp dialogue"",
+    ""kept me engaged"",
+    ""The plot is predictable""
+  ]
+}
+```",1,positive
+R005,"A clever script, strong direction, and an ending that feels earned rather than forced.",positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The review uses consistently positive language to praise the script, direction, and the satisfying nature of the ending."",
+  ""evidence_phrases"": [
+    ""A clever script"",
+    ""strong direction"",
+    ""an ending that feels earned rather than forced""
+  ]
+}
+```",1,positive
+R006,"The visuals are stunning and the world feels alive, even when the story takes familiar turns.",positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The review highlights strong positive aspects like stunning visuals and an immersive world, which outweigh the minor critique regarding the story's familiarity."",
+  ""evidence_phrases"": [
+    ""visuals are stunning"",
+    ""world feels alive"",
+    ""even when the story takes familiar turns""
+  ]
+}
+```",1,positive
+R007,"This movie balances humor and drama very well, with several scenes that stayed with me.",positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The reviewer praises the movie's effective balance of humor and drama and notes that several scenes were memorable, indicating a positive viewing experience."",
+  ""evidence_phrases"": [
+    ""balances humor and drama very well"",
+    ""several scenes that stayed with me""
+  ]
+}
+```",1,positive
+R008,"The film is not perfect, but it has heart, energy, and a cast that clearly understands the material.",positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""While acknowledging a minor imperfection, the review highlights significant positive attributes like the film's heart, energy, and a strong understanding from its cast, leading to an overall positive sentiment."",
+  ""evidence_phrases"": [
+    ""not perfect"",
+    ""it has heart"",
+    ""energy"",
+    ""a cast that clearly understands the material""
+  ]
+}
+```",1,positive
+R009,A touching and thoughtful movie that rewards patience with a powerful emotional payoff.,positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The review uses strong positive adjectives to describe the movie as emotionally impactful and rewarding, indicating a highly favorable experience."",
+  ""evidence_phrases"": [
+    ""touching and thoughtful movie"",
+    ""rewards patience"",
+    ""powerful emotional payoff""
+  ]
+}
+```",1,positive
+R010,The director turns a familiar premise into something fresh through careful details and strong atmosphere.,positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The review praises the director's ability to innovate a familiar concept, making it 'fresh' through the effective use of 'careful details' and 'strong atmosphere,' indicating a highly favorable opinion."",
+  ""evidence_phrases"": [
+    ""turns a familiar premise into something fresh"",
+    ""careful details"",
+    ""strong atmosphere""
+  ]
+}
+```",1,positive
+R011,"The action scenes are exciting, the editing is clean, and the characters are more interesting than expected.",positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The review highlights several positive aspects including exciting action scenes, clean editing, and surprisingly interesting characters, with no negative points mentioned."",
+  ""evidence_phrases"": [
+    ""action scenes are exciting"",
+    ""editing is clean"",
+    ""characters are more interesting than expected""
+  ]
+}
+```",1,positive
+R012,"A quiet film, but the silence and small gestures say more than most loud dramas.",positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The reviewer initially notes the film's quiet nature but quickly elevates it, stating that its subtle elements are more impactful and meaningful than conventional, louder dramas, indicating strong appreciation for its understated power."",
+  ""evidence_phrases"": [
+    ""the silence and small gestures say more than most loud dramas""
+  ]
+}
+```",1,positive
+R013,"The movie has a few weak jokes, but the emotional core works extremely well.",positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""While acknowledging minor flaws in humor, the review strongly praises the film's successful emotional depth, leading to an overall positive sentiment."",
+  ""evidence_phrases"": [
+    ""weak jokes"",
+    ""emotional core works extremely well""
+  ]
+}
+```",1,positive
+R014,The lead actor carries the film with a natural performance that makes even ordinary scenes compelling.,positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The review highly praises the lead actor's performance, indicating it was strong enough to elevate the entire film and make scenes engaging."",
+  ""evidence_phrases"": [
+    ""carries the film"",
+    ""natural performance"",
+    ""makes even ordinary scenes compelling""
+  ]
+}
+```",1,positive
+R015,A smart and entertaining film with enough surprises to keep the audience invested.,positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The review uses strong positive descriptors like 'smart', 'entertaining', and praises its ability to keep the audience engaged through 'surprises'."",
+  ""evidence_phrases"": [
+    ""smart and entertaining film"",
+    ""enough surprises"",
+    ""keep the audience invested""
+  ]
+}
+```",1,positive
+R016,The cinematography is gorgeous and the music gives the story a strong sense of place.,positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The review praises the visual aesthetics and the effective use of music to build atmosphere and immersion."",
+  ""evidence_phrases"": [
+    ""gorgeous"",
+    ""strong sense of place""
+  ]
+}
+```",1,positive
+R017,"Although the middle section drags, the film recovers with a satisfying final act.",positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""Despite an acknowledged weakness in the middle, the review emphasizes a strong recovery and a satisfying conclusion, leading to an overall positive impression."",
+  ""evidence_phrases"": [
+    ""middle section drags"",
+    ""film recovers"",
+    ""satisfying final act""
+  ]
+}
+```",1,positive
+R018,"The writing is witty, the cast is charming, and the movie never forgets its emotional stakes.",positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The review highlights strong writing, a charming cast, and effective emotional depth, all contributing to a very positive overall impression."",
+  ""evidence_phrases"": [
+    ""writing is witty"",
+    ""cast is charming"",
+    ""movie never forgets its emotional stakes""
+  ]
+}
+```",1,positive
+R019,A well-crafted drama that avoids cheap sentiment and lets the characters develop naturally.,positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The review praises the movie for its quality craftsmanship, natural character development, and sophisticated avoidance of simplistic emotional manipulation."",
+  ""evidence_phrases"": [
+    ""A well-crafted drama"",
+    ""avoids cheap sentiment"",
+    ""lets the characters develop naturally""
+  ]
+}
+```",1,positive
+R020,"The movie is familiar, but it is executed with confidence and genuine affection for its genre.",positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""While acknowledging familiarity, the review strongly emphasizes the movie's confident execution and genuine affection for its genre, which are highly positive attributes."",
+  ""evidence_phrases"": [
+    ""executed with confidence"",
+    ""genuine affection for its genre""
+  ]
+}
+```",1,positive
+R021,"A delightful surprise with strong performances, memorable scenes, and a very satisfying conclusion.",positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The review uses consistently strong positive language to describe the movie's overall impact, acting, scenes, and ending."",
+  ""evidence_phrases"": [
+    ""delightful surprise"",
+    ""strong performances"",
+    ""memorable scenes"",
+    ""very satisfying conclusion""
+  ]
+}
+```",1,positive
+R022,The film uses a small story to explore big emotions without becoming heavy-handed.,positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The review praises the film for its ability to delve into profound emotional themes with subtlety and grace, avoiding common pitfalls of over-dramatization."",
+  ""evidence_phrases"": [
+    ""explore big emotions"",
+    ""without becoming heavy-handed""
+  ]
+}
+```",1,positive
+R023,"The dialogue feels natural, the pace is steady, and the final message is quietly powerful.",positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The review uses several positive descriptors to praise the dialogue, pacing, and the impactful nature of the movie's message."",
+  ""evidence_phrases"": [
+    ""dialogue feels natural"",
+    ""pace is steady"",
+    ""final message is quietly powerful""
+  ]
+}
+```",1,positive
+R024,A charming movie that makes up for its simple plot with sincere characters and lovely music.,positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The review explicitly praises the movie as 'charming' and highlights its 'sincere characters' and 'lovely music,' which collectively overcome the mention of a 'simple plot.'"",
+  ""evidence_phrases"": [
+    ""A charming movie"",
+    ""makes up for its simple plot"",
+    ""sincere characters"",
+    ""lovely music""
+  ]
+}
+```",1,positive
+R025,"I expected very little, but the movie surprised me with its humor, warmth, and thoughtful ending.",positive,v1,"```json
+{
+  ""sentiment"": ""positive"",
+  ""short_explanation"": ""The reviewer started with low expectations but was pleasantly surprised by the movie's positive attributes, including its humor, warmth, and thoughtful ending."",
+  ""evidence_phrases"": [
+    ""surprised me with its humor"",
+    ""warmth"",
+    ""thoughtful ending""
+  ]
+}
+```",1,positive
+R026,"The film looks expensive, but the story is thin and the characters are hard to care about.",negative,v1,"```json
+{
+  ""sentiment"": ""negative"",
+  ""short_explanation"": ""While acknowledging the film's expensive look, the review pivots to strong criticisms regarding the thin story and unengaging characters, which are fundamental flaws for a movie."",
+  ""evidence_phrases"": [
+    ""the story is thin"",
+    ""the characters are hard to care about""
+  ]
+}
+```",1,negative
+R027,"A dull movie with flat dialogue, weak pacing, and an ending that feels completely unearned.",negative,v1,"```json
+{
+  ""sentiment"": ""negative"",
+  ""short_explanation"": ""The review uses consistently negative language to describe the movie's quality, dialogue, pacing, and ending."",
+  ""evidence_phrases"": [
+    ""A dull movie"",
+    ""flat dialogue"",
+    ""weak pacing"",
+    ""an ending that feels completely unearned""
+  ]
+}
+```",1,negative
+R028,"The actors try their best, but the script gives them almost nothing interesting to do.",negative,v1,"```json
+{
+  ""sentiment"": ""negative"",
+  ""short_explanation"": ""While acknowledging the actors' effort, the review strongly criticizes the script for providing a lack of engaging material, making the overall sentiment negative."",
+  ""evidence_phrases"": [
+    ""but the script gives them almost nothing interesting to do"",
+    ""almost nothing interesting to do""
+  ]
+}
+```",1,negative
+R029,The movie starts with promise and then slowly collapses into predictable twists and noisy scenes.,negative,v1,"```json
+{
+  ""sentiment"": ""negative"",
+  ""short_explanation"": ""While acknowledging an initial positive aspect, the review ultimately describes the movie as failing and becoming predictable and noisy, indicating a negative overall experience."",
+  ""evidence_phrases"": [
+    ""slowly collapses"",
+    ""predictable twists"",
+    ""noisy scenes""
+  ]
+}
+```",1,negative
+R030,"I wanted to enjoy it, but the plot is confusing, the jokes fall flat, and the runtime feels endless.",negative,v1,"```json
+{
+  ""sentiment"": ""negative"",
+  ""short_explanation"": ""Despite an initial desire to enjoy the film, the reviewer found the plot confusing, the humor unsuccessful, and the length excessive, leading to an overall negative experience."",
+  ""evidence_phrases"": [
+    ""plot is confusing"",
+    ""jokes fall flat"",
+    ""runtime feels endless""
+  ]
+}
+```",1,negative

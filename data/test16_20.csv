@@ -1,0 +1,6 @@
+review_id,review_text,gold_sentiment,expected_aspects,difficulty,source_note
+R016,The cinematography is gorgeous and the music gives the story a strong sense of place.,positive,"visuals,music",easy,synthetic_imdb_style_sample_for_lab_scaffold
+R017,"Although the middle section drags, the film recovers with a satisfying final act.",positive,"pacing,ending",mixed_surface_positive_label,synthetic_imdb_style_sample_for_lab_scaffold
+R018,"The writing is witty, the cast is charming, and the movie never forgets its emotional stakes.",positive,"writing,acting,emotion",easy,synthetic_imdb_style_sample_for_lab_scaffold
+R019,A well-crafted drama that avoids cheap sentiment and lets the characters develop naturally.,positive,"story,characters",easy,synthetic_imdb_style_sample_for_lab_scaffold
+R020,"The movie is familiar, but it is executed with confidence and genuine affection for its genre.",positive,"story,direction,genre",mixed_surface_positive_label,synthetic_imdb_style_sample_for_lab_scaffold

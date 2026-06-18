@@ -1,0 +1,6 @@
+review_id,review_text,gold_sentiment,expected_aspects,difficulty,source_note
+R001,A beautifully acted film with a simple story that becomes surprisingly emotional by the end.,positive,"acting,story,ending",easy,synthetic_imdb_style_sample_for_lab_scaffold
+R002,"The pacing is slow at first, but the performances and final scene make the movie memorable.",positive,"pacing,acting,ending",mixed_surface_positive_label,synthetic_imdb_style_sample_for_lab_scaffold
+R003,I loved the chemistry between the leads and the soundtrack fits every scene perfectly.,positive,"acting,music",easy,synthetic_imdb_style_sample_for_lab_scaffold
+R004,"The plot is predictable, yet the warm characters and sharp dialogue kept me engaged.",positive,"story,characters,dialogue",mixed_surface_positive_label,synthetic_imdb_style_sample_for_lab_scaffold
+R005,"A clever script, strong direction, and an ending that feels earned rather than forced.",positive,"story,direction,ending",easy,synthetic_imdb_style_sample_for_lab_scaffold

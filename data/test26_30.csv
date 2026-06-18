@@ -1,0 +1,6 @@
+review_id,review_text,gold_sentiment,expected_aspects,difficulty,source_note
+R026,"The film looks expensive, but the story is thin and the characters are hard to care about.",negative,"visuals,story,characters",mixed_surface_negative_label,synthetic_imdb_style_sample_for_lab_scaffold
+R027,"A dull movie with flat dialogue, weak pacing, and an ending that feels completely unearned.",negative,"dialogue,pacing,ending",easy,synthetic_imdb_style_sample_for_lab_scaffold
+R028,"The actors try their best, but the script gives them almost nothing interesting to do.",negative,"acting,writing",mixed_surface_negative_label,synthetic_imdb_style_sample_for_lab_scaffold
+R029,The movie starts with promise and then slowly collapses into predictable twists and noisy scenes.,negative,"story,pacing,action",easy,synthetic_imdb_style_sample_for_lab_scaffold
+R030,"I wanted to enjoy it, but the plot is confusing, the jokes fall flat, and the runtime feels endless.",negative,"story,humor,pacing",easy,synthetic_imdb_style_sample_for_lab_scaffold

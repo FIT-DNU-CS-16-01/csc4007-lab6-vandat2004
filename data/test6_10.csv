@@ -1,0 +1,6 @@
+review_id,review_text,gold_sentiment,expected_aspects,difficulty,source_note
+R006,"The visuals are stunning and the world feels alive, even when the story takes familiar turns.",positive,"visuals,story",mixed_surface_positive_label,synthetic_imdb_style_sample_for_lab_scaffold
+R007,"This movie balances humor and drama very well, with several scenes that stayed with me.",positive,"tone,story",easy,synthetic_imdb_style_sample_for_lab_scaffold
+R008,"The film is not perfect, but it has heart, energy, and a cast that clearly understands the material.",positive,"acting,tone",mixed_surface_positive_label,synthetic_imdb_style_sample_for_lab_scaffold
+R009,A touching and thoughtful movie that rewards patience with a powerful emotional payoff.,positive,"emotion,pacing",easy,synthetic_imdb_style_sample_for_lab_scaffold
+R010,The director turns a familiar premise into something fresh through careful details and strong atmosphere.,positive,"direction,atmosphere,story",easy,synthetic_imdb_style_sample_for_lab_scaffold

@@ -1,0 +1,6 @@
+review_id,review_text,gold_sentiment,expected_aspects,difficulty,source_note
+R011,"The action scenes are exciting, the editing is clean, and the characters are more interesting than expected.",positive,"action,editing,characters",easy,synthetic_imdb_style_sample_for_lab_scaffold
+R012,"A quiet film, but the silence and small gestures say more than most loud dramas.",positive,"tone,acting",ambiguous_style,synthetic_imdb_style_sample_for_lab_scaffold
+R013,"The movie has a few weak jokes, but the emotional core works extremely well.",positive,"humor,emotion",mixed_surface_positive_label,synthetic_imdb_style_sample_for_lab_scaffold
+R014,The lead actor carries the film with a natural performance that makes even ordinary scenes compelling.,positive,acting,easy,synthetic_imdb_style_sample_for_lab_scaffold
+R015,A smart and entertaining film with enough surprises to keep the audience invested.,positive,"story,entertainment",easy,synthetic_imdb_style_sample_for_lab_scaffold
